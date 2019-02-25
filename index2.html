@@ -8,11 +8,9 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- Bootstrap CSS -->
     <!-- build:css css/main.css -->
-    <link rel="stylesheet"
-        href="C:/Users/zafeiria/workspace/leChocolat/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="C:/Users/zafeiria/workspace/leChocolat/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link href="css/styles.css" rel="stylesheet">
-    <link rel="stylesheet"
-        href="C:/Users/zafeiria/workspace/leChocolat/node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="C:/Users/zafeiria/workspace/leChocolat/node_modules/font-awesome/css/font-awesome.min.css">
     <!-- endbuild -->
     <title>Le Chocolat</title>
 </head>
@@ -36,8 +34,7 @@
                         <a class="nav-link" href="./menu.html"><span class="fa fa-list fa-lg"></span>Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./contactus.html"><span
-                                class="fa fa-address-card fa-lg"></span>Contact</a>
+                        <a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span>Contact</a>
                     </li>
                 </ul>
                 <span class="navbar-text">
@@ -45,11 +42,11 @@
                         <span class="fa fa-sign-in"></span> Login
                     </a>
                 </span>
-                <!-- <span class="navbar-text">
+                <span class="navbar-text">
                     <a data-toggle="modal" data-target="#basketModal">
                         <span class="fa fa-shopping-basket"></span> Reserve
                     </a>
-                </span> -->
+                </span>
             </div>
         </div>
     </nav>
@@ -97,8 +94,9 @@
         </div>
     </div>
 
-    <!-- <div id="basketModal" class="modal fade" role="dialog">
+    <div id="basketModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title">Reserve your baskets </h4>
@@ -135,6 +133,8 @@
                         <div class="form-group">
                             <label for="homedelivery" class="col-form-label">Home Delivery</label>
                             <div class="btn-group" role="group">
+                                <!-- <button type="button" class="btn btn-success">Yes</button>
+                                <button type="button" class="btn btn-danger">No</button> -->
                                 <label class="btn btn-success">
                                     <input type="radio" name="optradio" checked> Yes
                                 </label>
@@ -154,7 +154,7 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
     <header class="jumbotron">
         <div class="container">
@@ -170,8 +170,7 @@
                 <div class="col-12 col-sm-3">
                     <p style="padding-left:5px;"></p>
                     <a type="button" class="btn btn-warning btn-sm btn-block" data-toggle="tooltip" data-html="true"
-                        title="Or Call us at <br><strong>+ 987 6543 2100</strong>" data-placement="bottom"
-                        href="#reserve-form">
+                        title="Or Call us at <br><strong>+ 987 6543 2100</strong>" data-placement="bottom" href="#reserve-form">
                         Reserve your baskets
                     </a>
                 </div>
@@ -249,8 +248,7 @@
             </div>
             <div class="col-sm col-md">
                 <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/dark85.jpg"
-                        alt="85% DARK CHOCOLATE">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/dark85.jpg" alt="85% DARK CHOCOLATE">
                     <div class="media-body">
                         <h2 class="mt-0">85% DARK CHOCOLATE
                             <span class="badge badge-danger">HOT</span>
@@ -266,8 +264,7 @@
         <div class="row row-content align-items-center">
             <div class="col-sm col-md">
                 <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/promotion.jpg"
-                        alt="85% DARK CHOCOLATE">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/promotion.jpg" alt="85% DARK CHOCOLATE">
                     <div class="media-body">
                         <h2 class="mt-0">Our basket
                             <span class="badge badge-danger">NEW</span>
@@ -288,8 +285,7 @@
             </div>
             <div class="col-sm col-md">
                 <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/cartoonVasilis.png"
-                        alt="Vasilis Wilson">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/cartoonVasilis.png" alt="Vasilis Wilson">
                     <div class="media-body">
                         <h2 class="mt-0">Vasilis Wilson</h2>
                         <p class="col d-none d-md-block">Vasilis is well informed of all the current trends in pastry
@@ -300,12 +296,12 @@
         </div>
     </div>
 
-    <div class="row row-content">
+    <!--     <div class="row row-content">
         <div class="col-12 col-sm-8">
             <div class="card">
                 <h5 class="card-header text-white bg-warning mb-3 text-left">Reserve your baskets</h5>
                 <div class="card-body">
-                    <form id="reserve-form">
+                    <form>
                         <div class="form-group row">
                             <label for="numberofbaskets" class="col-form-label">Number of baskets</label>
                             <div class="radio-inline align">
@@ -321,18 +317,17 @@
                             <label for="dateandtime" class="col-form-label">Date and Time</label>
                             <div class="input-group mb-3">
                                 <div class="input-group-prepend">
-                                    <span class="input-group-text" id="calendar-addon"><i
-                                            class="fa fa-calendar"></i></span>
+                                    <span class="input-group-text" id="calendar-addon"><i class="fa fa-calendar"></i></span>
                                 </div>
-                                <input type="text" class="form-control-inline" placeholder="dd----yyyy"
-                                    aria-label="dd----yyyy" aria-describedby="calendar-addon">
+                                <input type="text" class="form-control-inline" placeholder="dd----yyyy" aria-label="dd----yyyy"
+                                    aria-describedby="calendar-addon">
                             </div>
                             <div class="input-group padding-left mb-3">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text" id="clock-addon"><i class="fa fa-clock-o"></i></span>
                                 </div>
-                                <input type="text" class="form-control-inline" placeholder="--:-- --"
-                                    aria-label="--:-- --" aria-describedby="clock-addon">
+                                <input type="text" class="form-control-inline" placeholder="--:-- --" aria-label="--:-- --"
+                                    aria-describedby="clock-addon">
                             </div>
                         </div>
                         <button class="btn btn-primary" type="submit">Reserve</button>
@@ -340,7 +335,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <footer class="footer">
         <div class="container">
@@ -362,8 +357,7 @@
                         HAWAII<br>
                         <i class="fa fa-phone fa-lg"></i>: +987 6543 2100 <br>
                         <i class="fa fa-fax fa-lg"></i>: +987 6543 2101 <br>
-                        <i class="fa fa-envelope fa-lg"></i>:<a href="mailto: chocolat@nomail.net">
-                            chocolat@nomail.net</a>
+                        <i class="fa fa-envelope fa-lg"></i>:<a href="mailto: chocolat@nomail.net"> chocolat@nomail.net</a>
                     </address>
                 </div>
                 <div class="col col-sm-4 align-self-center">
